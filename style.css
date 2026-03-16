@@ -179,8 +179,8 @@ section:nth-of-type(even) {
 /* Real photo */
 .avatar-img {
   width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  height: 240px;
+  border-radius: var(--radius);
   object-fit: cover;
   object-position: center center;
   border: 3px solid var(--border);
