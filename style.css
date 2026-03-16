@@ -179,10 +179,8 @@ section:nth-of-type(even) {
 /* Real photo */
 .avatar-img {
   width: 200px;
-  height: 240px;
+  height: auto;
   border-radius: var(--radius);
-  object-fit: cover;
-  object-position: center center;
   border: 3px solid var(--border);
   box-shadow: var(--shadow);
 }
