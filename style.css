@@ -162,6 +162,10 @@ section:nth-of-type(even) {
   align-items: flex-start;
 }
 
+.about-bottom {
+  margin-top: 2.5rem;
+}
+
 /* --- LEFT COLUMN --- */
 .profile-col {
   display: flex;
