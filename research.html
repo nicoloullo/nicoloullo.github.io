@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Nicolò Ullo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Nicolò Ullo</a>
+
+      <button class="nav-burger" aria-label="Menu" onclick="this.classList.toggle('active'); document.getElementById('nav-menu').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html">About</a>
+        <a href="research.html" class="nav-active">Research</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="assets/CV.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Research</h1>
+      <p>Applied Macroeconomics &middot; Macroeconometrics &middot; Financial Macroeconomics</p>
+    </div>
+  </div>
+
+  <!-- WORK IN PROGRESS -->
+  <section id="wip">
+    <div class="container">
+      <h2 class="section-title">Work in Progress</h2>
+
+      <div class="pub-card">
+        <div class="pub-body">
+          <div class="pub-tags">
+            <span class="pub-tag tag-wip">Draft v0.2 &middot; March 2026</span>
+          </div>
+          <h3 class="pub-title">Anchoring the Yield Curve Using Federal Funds Futures</h3>
+          <p class="pub-abstract">
+            Fed funds futures provide observable, market-based expectations of future short-term
+            rates. We use them to anchor yield curve forecasts at the short end, where the
+            Expectations Hypothesis holds. This forward-looking anchor is then propagated to the
+            rest of the curve via a tilting procedure, improving on purely backward-looking
+            term-structure models.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKING PAPERS -->
+  <section id="working-papers">
+    <div class="container">
+      <h2 class="section-title">Working Papers</h2>
+      <p class="pub-empty">No working papers yet.</p>
+    </div>
+  </section>
+
+  <!-- PUBLISHED PAPERS -->
+  <section id="published">
+    <div class="container">
+      <h2 class="section-title">Published Papers</h2>
+      <p class="pub-empty">No published papers yet.</p>
+    </div>
+  </section>
+
+  <!-- MASTER THESIS -->
+  <section id="thesis">
+    <div class="container">
+      <h2 class="section-title">Master Thesis</h2>
+
+      <div class="pub-card">
+        <div class="pub-body">
+          <div class="pub-tags">
+            <span class="pub-tag">Thesis</span>
+            <span class="pub-tag">2024</span>
+          </div>
+          <h3 class="pub-title">The Cyclical Pattern of Productivity: Theory and Empirical Evidence</h3>
+          <p class="pub-abstract">
+            Advisor: Prof. Francesco Nucci (Sapienza University of Rome) &middot;
+            Co-Advisor: Prof. Lionel Artige (HEC Liège)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Nicolò Ullo</p>
+    </div>
+  </footer>
+
+</body>
+</html>
