@@ -180,7 +180,7 @@ section:nth-of-type(even) {
 .avatar-img {
   width: 200px;
   height: auto;
-  border-radius: 0;
+  border-radius: var(--radius);
 }
 
 /* Placeholder (initials) */
