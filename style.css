@@ -181,8 +181,6 @@ section:nth-of-type(even) {
   width: 200px;
   height: auto;
   border-radius: var(--radius);
-  border: 3px solid var(--border);
-  box-shadow: var(--shadow);
 }
 
 /* Placeholder (initials) */
