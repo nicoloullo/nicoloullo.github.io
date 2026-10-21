@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{xcolor}
+\definecolor{linkgreen}{rgb}{0.3,0.4,0.3}
+\usepackage[colorlinks=true,linkcolor=linkgreen,urlcolor=linkgreen]{hyperref}
+
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+
+\newlength{\datewidth}
+\setlength{\datewidth}{3cm}
+
+\newcommand{\cvsection}[1]{%
+  \needspace{4\baselineskip}%
+  \vspace{14pt}\noindent{\bfseries #1}\par\vspace{2pt}\hrule height 0.6pt\vspace{10pt}}
+
+\newcommand{\cvitem}[2]{%
+  \noindent\begin{minipage}[t]{\datewidth}\raggedright #1\end{minipage}%
+  \begin{minipage}[t]{\dimexpr\textwidth-\datewidth\relax}\raggedright #2\end{minipage}\par\vspace{10pt}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Nicolò Ullo}\\[6pt]
+\href{mailto:nicolo.ullo@uniroma1.it}{nicolo.ullo@uniroma1.it} \ $\circ$ \ \href{https://nicoloullo.github.io}{nicoloullo.github.io}
+\end{center}
+
+\cvsection{Education}
+
+\cvitem{2024--}{\textbf{PhD in Economics}\\University of Rome La Sapienza}
+
+\cvitem{2022--2024}{\textbf{MSc in Economics and Finance} (Double Degree)\\University of Rome La Sapienza\\
+Thesis: \textit{``The Cyclical Pattern of Productivity: Theory and Empirical Evidence''}\\
+Advisor: Prof. Francesco Nucci (Sapienza); Co-Advisor: Prof. Lionel Artige (HEC)\\
+\textit{110/110 cum laude}, GPA: 29.84/30}
+
+\cvitem{2022--2024}{\textbf{MSc in Economics and Finance} (Double Degree)\\University HEC of Liège\\
+\textit{Summa cum laude (La plus grande distinction)}, GPA: 17.46/20}
+
+\cvitem{2019--2022}{\textbf{B.S. International Economics and Marketing}\\University of Modena and Reggio Emilia\\
+\textit{110/110 cum laude}, GPA: 28.65/30}
+
+\cvsection{Grants \& Awards}
+
+\cvitem{2024}{University La Sapienza PhD Scholarship (funded by PNRR)}
+\cvitem{2022}{University La Sapienza Double Degree studentship for MSc in Economics and Finance}
+\cvitem{2018}{Awarded the `Premio ConMerito' by Banco BPM for academic excellence in the Secondary School graduation}
+\cvitem{2018}{Awarded the `Premio di Studio Dottr. Tamagnini' by Concorde Group S.p.a. for academic excellence in the Secondary School graduation}
+
+\cvsection{Professional Activities}
+
+\cvitem{Jun 2026--}{Tutor for the Master-level course \textit{Intermediate Econometrics}, Prof. Giuseppe Ragusa}
+\cvitem{Mar--Sep 2026}{Research collaboration with Prometeia S.p.a.}
+\cvitem{2020/2021}{Tutor at the Social Cooperative Domus Assistenza}
+
+\cvsection{Working Papers}
+
+\begin{enumerate}[leftmargin=1.4em,labelsep=0.4em,itemsep=8pt,topsep=0pt]
+\item \textbf{``External Anchors, Policy Expectations, and the Lower Bound in Yield-Curve Forecasts.''} With Giuseppe Ragusa (Sapienza University of Rome). Working Paper, September 2026.
+\end{enumerate}
+
+\cvsection{Presentations and Seminars}
+
+\cvitem{Sep 2026}{Poster session, 6th Sailing the Macro Workshop, Ortygia}
+
+\cvsection{Technical Skills}
+Python, Stata, R, MATLAB, Dynare, Gretl, Excel, Word, PowerPoint, \LaTeX
+
+\cvsection{Languages \& Certifications}
+Italian (native), English (C1, IELTS 7.5), Spanish, French
+
+\end{document}
